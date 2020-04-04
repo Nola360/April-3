@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;;
+}
+
+body {
+  font-family: 'Josefin Sans', 'sans-serif';
+}
+
+.wrapper {
+  display: flex;
+  background: rgb(247, 247, 247);
+  height: 100vh;
+}
+
+.nav_bar {
+  background: rgb(103, 74, 155);
+  width: 0;
+  overflow: hidden;
+  transition: width .4s ease-in-out;
+}
+
+
+.nav_bar.open {
+ width: 60%;
+}
+
+
+h1 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  padding: 30px;
+  border-bottom: .2px solid rgba(202, 202, 202, 0.9);
+}
+
+
+
+ul li a {
+  color: rgb(194, 194, 194);
+  
+}
+
+li:hover {
+  padding-left: 30px;
+  transition: .3s ease-in-out;
+  
+}
+
+a:hover {
+  color: #fff;
+}
+
+ul li {
+  list-style: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.fas {
+  margin-right: 10px;
+  transition: all .3s ease;
+}
+
+
+li {
+  padding: 20px;
+  border-bottom: .2px solid rgba(202, 202, 202, 0.9);
+  cursor: pointer;
+}
+
+.top_ {
+  padding: 20px;
+  background: white;
+}
+
+.content_body {
+  padding: 25px;
+}
+
+.content_body p {
+  margin-bottom: 20px;
+  color: rgb(129, 129, 129);
+  line-height: 25px;
+}
